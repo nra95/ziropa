@@ -1,0 +1,298 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url(images/30isterninger.jpg);
+   
+    background-repeat: repeat-y;
+
+    
+}
+
+h1, h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section > #vid {
+padding-bottom: 500px;
+
+display: flex;
+justify-content: center;
+
+height: 1220px;
+width: 100%;
+
+
+}
+
+
+
+/*historie sektionen*/
+#hisek {
+    display: inline-flex;
+
+    padding-bottom: 500px;
+
+}
+
+#stift {
+    height: 500px;
+    width: 515px;
+}
+
+#hitxt {
+    position: relative;
+    text-align: center;
+    color: #ece6d3;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.ontop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }
+
+
+
+#satr {
+
+    /*opacity: 40%;*/
+    height: 500px;
+    width: 500px;
+
+}
+
+#gullem {
+    height: 500px;
+    width: 503px;
+}
+
+
+/*Hide and show sektion med drinks*/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/*Guide tekst*/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* The dots/bullets/indicators */
+
+#dotbox {
+  padding-bottom: 400px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #771011;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*Slut tekst med CTA knap*/
+
+/*tekst ovenpå billede*/
+#txtend {
+  position: relative;
+    text-align: center;
+    color: #ece6d3;
+
+    font-family: 'Montserrat', sans-serif;;
+
+}
+
+.op {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  padding-top: 320px;
+}
+
+
+
+/*Baggrundsbillede*/
+#backdrink {
+    height: 600px;
+    width: 1000px;
+}
+
+
+/*CTA knap*/
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 380px;
+  }
+
+.button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+  }
+
+.cta-button {
+    background-color: #771011;
+    color: #ece6d3 !important;
+    text-decoration: none;
+  }
+  
+.cta-button:hover {
+    background-color: #221712;
+  }
+
+
+/*Instgram sektion følg med*/
+main > #follow > h1 {
+  text-decoration: underline;
+  color: #221712;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 2000;
+  
+}
+
+main > #follow > section > img {
+  display: inline-flex;
+  
+  padding-left: 20px;
+  height: 370px;
+  width: 370px;
+
+  padding-top: 40px;
+}
+
+
+
+/*Footer*/
+
+#fo {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #6f635b; 
+    
+}
+
+/*footer logo*/
+
+#folo, #folo1 {
+    height: 150px;
+    width: 150px;
+}
+
+/*footer teskt*/
+
+#fotxt {
+    padding-top: 40px;
+    padding-left: 20px;
+
+    color: #771011;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*SoMe knapper i footer*/
+
+#foso {
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    background-color: #221712;
+  }
+  
+.fa-facebook {
+    background: #771011;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #771011;
+    color: white;
+  }
